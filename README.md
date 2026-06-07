@@ -1,6 +1,6 @@
 # Robotic Arm Based Pen Controller
 
-B.Tech Minor Project | ECE-327 | MANIT Bhopal | Group 35
+Demo Video(https://drive.google.com/file/d/1LKlr6mStjvzRQrOrKv8dja0X9MHQriWb/view?usp=drivesdk)
 
 ---
 
