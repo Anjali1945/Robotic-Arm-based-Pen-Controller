@@ -8,7 +8,7 @@
 - The robotic arm draws it on paper with a pen — fully automated
 
 ---
-Demo Video(https://drive.google.com/file/d/1LKlr6mStjvzRQrOrKv8dja0X9MHQriWb/view?usp=drivesdk)
+[Demo Video](https://drive.google.com/file/d/1LKlr6mStjvzRQrOrKv8dja0X9MHQriWb/view?usp=drivesdk)
 
 ---
 ### Initial Approach — Multi-tool Workflow 
