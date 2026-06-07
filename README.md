@@ -1,9 +1,5 @@
 # Robotic Arm Based Pen Controller
 
-Demo Video(https://drive.google.com/file/d/1LKlr6mStjvzRQrOrKv8dja0X9MHQriWb/view?usp=drivesdk)
-
----
-
 ## What it does
 
 - Captures an image using a phone camera (IVCam over USB)
@@ -12,10 +8,10 @@ Demo Video(https://drive.google.com/file/d/1LKlr6mStjvzRQrOrKv8dja0X9MHQriWb/vie
 - The robotic arm draws it on paper with a pen — fully automated
 
 ---
+Demo Video(https://drive.google.com/file/d/1LKlr6mStjvzRQrOrKv8dja0X9MHQriWb/view?usp=drivesdk)
 
-## Two Approaches
-
-### Approach 1 — Multi-tool Workflow (Initial)
+---
+### Initial Approach — Multi-tool Workflow 
 
 This was the first version. Each stage was a separate tool and required manual handoff.
 
@@ -25,7 +21,7 @@ This was the first version. Each stage was a separate tool and required manual h
 - Any change meant restarting the whole chain from scratch
 - Produced better results for complex shapes, but needed constant manual steps
 
-### Approach 2 — Unified Python Pipeline (Final)
+### Final Approach — Unified Python Pipeline
 
 Replaced all four tools with a single Python script.
 
@@ -77,9 +73,9 @@ python main.py
 | S | Snapshot and start drawing |
 | P | Pause |
 | R | Resume |
-| Q / W / E | Jog +Z / +Y / -Z |
+| Q / E | Jog +Z / -Z |
 | A / D | Jog -X / +X |
-| X | Jog -Y |
+| X / W | Jog -Y / +Y |
 
 ---
 
@@ -114,5 +110,3 @@ python main.py
 
 Anjali Thaware · Shreya Kumar · Neha Jhariya
 
-Guide: Dr. Manish Kashyap
-Department of ECE, MANIT Bhopal — April 2026
